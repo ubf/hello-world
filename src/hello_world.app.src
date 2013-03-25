@@ -1,0 +1,11 @@
+%%% -*- mode: erlang -*-
+%%%
+
+{application, hello_world,
+ [{description, "Hello World Example for UBF"},
+  {vsn, git},
+  {registered, []},
+  {applications, [kernel, stdlib, sasl]},
+  {mod, {hello_world_app, []}},
+  {env, []}
+ ]}.

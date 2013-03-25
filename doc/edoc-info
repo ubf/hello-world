@@ -1,0 +1,5 @@
+%% encoding: UTF-8
+{application,hello_world}.
+{packages,[]}.
+{modules,[hello_world_app,hello_world_example,hello_world_plugin,
+          hello_world_sup]}.

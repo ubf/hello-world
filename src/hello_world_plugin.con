@@ -1,0 +1,60 @@
+%%% -*- mode: erlang -*-
+%%%
+%%% The MIT License
+%%%
+%%% Copyright (C) 2012-2013 by Joseph Wayne Norton <norton@alum.mit.edu>
+%%%
+%%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%%% of this software and associated documentation files (the "Software"), to deal
+%%% in the Software without restriction, including without limitation the rights
+%%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%%% copies of the Software, and to permit persons to whom the Software is
+%%% furnished to do so, subject to the following conditions:
+%%%
+%%% The above copyright notice and this permission notice shall be included in
+%%% all copies or substantial portions of the Software.
+%%%
+%%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%%% THE SOFTWARE.
+
++NAME("hello_world_plugin").
+
++VSN("1.0.0").
+
++TYPES
+
+%%% example request and response
+request()               :: any();
+response()              :: any();
+
+%%% keep-alive
+ubf_keepalive_req()     :: keepalive;
+ubf_keepalive_res()     :: ok;
+
+%%% meta methods
+ubf_info_req()          :: info;
+ubf_info_res()          :: ubfstring();
+
+ubf_description_req()   :: description;
+ubf_description_res()   :: ubfstring();
+
+ubf_contract_req()      :: contract;
+ubf_contract_res()      :: term().
+
++ANYSTATE
+
+%% example request and response
+request() => response();
+
+%%% keep-alive
+ubf_keepalive_req() => ubf_keepalive_res();
+
+%%% meta methods
+ubf_info_req() => ubf_info_res();
+ubf_description_req() => ubf_description_res();
+ubf_contract_req() => ubf_contract_res().
