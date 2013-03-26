@@ -1,11 +1,11 @@
 
 
-#Hello World Example for Universal Binary Format#
-
+# Hello World Example for Universal Binary Format #
 
 Copyright (c) 2013 by Joseph Wayne Norton
 
-__Authors:__ Joseph Wayne Norton ([`norton@alum.mit.edu`](mailto:norton@alum.mit.edu)).<p>This is an Erlang/OTP application whose only purpose is to serve as a
+__Authors:__ Joseph Wayne Norton ([`norton@alum.mit.edu`](mailto:norton@alum.mit.edu)).
+<p>This is an Erlang/OTP application whose only purpose is to serve as a
 simple "Hello World" example for the UBF framework.</p>
 <p>This application contains the following components:</p>
 <ul>
@@ -178,7 +178,7 @@ UBF(c) is a meta-level protocol used between a UBF client and a UBF
 
 
 
-##Modules##
+## Modules ##
 
 
 <table width="100%" border="0" summary="list of modules">

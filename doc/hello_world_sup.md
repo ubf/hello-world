@@ -1,13 +1,13 @@
 
 
-#Module hello_world_sup#
+# Module hello_world_sup #
 * [Function Index](#index)
 * [Function Details](#functions)
 
+__Behaviours:__ [`supervisor`](supervisor.md).
+<a name="index"></a>
 
-__Behaviours:__ [`supervisor`](supervisor.html).<a name="index"></a>
-
-##Function Index##
+## Function Index ##
 
 
 <table width="100%" border="1" cellspacing="0" cellpadding="2" summary="function index"><tr><td valign="top"><a href="#init-1">init/1</a></td><td></td></tr><tr><td valign="top"><a href="#start_link-1">start_link/1</a></td><td></td></tr></table>
@@ -15,19 +15,19 @@ __Behaviours:__ [`supervisor`](supervisor.html).<a name="index"></a>
 
 <a name="functions"></a>
 
-##Function Details##
+## Function Details ##
 
 <a name="init-1"></a>
 
-###init/1##
-
+### init/1 ###
 
 `init(Args) -> any()`
 
+
 <a name="start_link-1"></a>
 
-###start_link/1##
-
+### start_link/1 ###
 
 `start_link(Args) -> any()`
+
 
