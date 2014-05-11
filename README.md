@@ -2,7 +2,7 @@
 
 # Hello World Example for Universal Binary Format #
 
-Copyright (c) 2013 by Joseph Wayne Norton
+Copyright (c) 2013-2014 by Joseph Wayne Norton
 
 __Authors:__ Joseph Wayne Norton ([`norton@alum.mit.edu`](mailto:norton@alum.mit.edu)).
 <p>This is an Erlang/OTP application whose only purpose is to serve as a
