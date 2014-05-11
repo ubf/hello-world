@@ -9,7 +9,7 @@ deps:
 	$(REBAR) get-deps
 
 clean:
-	$(REBAR) clean
+	$(REBAR) clean -r
 
 compile:
 	$(REBAR) compile
